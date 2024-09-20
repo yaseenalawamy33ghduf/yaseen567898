@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Online Store</h1>
+    </header>
+
+    <section class="products">
+        <div class="product">
+            <h2>Product 1</h2>
+            <p>$50.00</p>
+            <button class="buy-btn" data-price="5000">Buy Now</button>
+        </div>
+        <div class="product">
+            <h2>Product 2</h2>
+            <p>$30.00</p>
+            <button class="buy-btn" data-price="3000">Buy Now</button>
+        </div>
+        <!-- Add more products as needed -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Online Store</p>
+    </footer>
+
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="script.js"></script>
+</body>
+</html>
